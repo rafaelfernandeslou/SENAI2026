@@ -72,6 +72,7 @@
 .col {
     width: 22%;
     min-width: 200px;
+    justify-content: space-between;
 }
 
 .col h3 {
@@ -94,5 +95,5 @@
     text-align: right;
     margin-top: 40px;
     font-size: 12px;
-    color: #999;
+    color: #ffffff;
 }
