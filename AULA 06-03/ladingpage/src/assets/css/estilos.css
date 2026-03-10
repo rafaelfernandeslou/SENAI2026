@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    top: 0;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.home {
+    text-align: center;
+    padding: 80px 20px;
+    background: #ffe3b8;
+    color: black;
+}
+.home button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: #ff8800;
+    border: none;
+    color: white;
+    font-size: 14pt;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.home button:hover {
+    background: #cc6d00;
+}
+
+.sobre {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.modalidades {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #ddd;
+    padding: 20px;
+}
+.modalidades h2 {
+    width: 100%;
+    text-align: center;
+}
+.exercicio {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+}
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
